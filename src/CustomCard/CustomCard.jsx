@@ -3,10 +3,10 @@ import Button from "@mui/material/Button";
 
 const CustomCard = ({ title, schedule, link, semester }) => {
     const semesterColors = {
-        2: 'lightblue',
-        4: 'yellow',
-        6: 'orange',
-        8: 'magenta'
+        2: '#59D5E0',
+        4: '#F5DD61',
+        6: '#FAA300',
+        8: '#F4538A'
     };
 
     const headerColor = semesterColors[semester];
