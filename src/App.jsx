@@ -7,7 +7,7 @@ const App = () => {
     <>
       <div className='app'>
 
-        <h1>DIT Webex Links</h1>
+        <h1>DIT Webex</h1>
         <h3>Εαρινό Εξάμηνο 2024</h3>
         <hr />
 
