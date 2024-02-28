@@ -17,3 +17,4 @@ Credits στην original creator.
 2. Φίλτρα - Favorites
 3. Footer
 4. Bottom margin
+5. Search
