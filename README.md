@@ -15,3 +15,5 @@ Credits στην original creator.
 ### To-Do list
 1. Live indicator (με βάση την τρέχουσα ώρα και τη διάλεξη)
 2. Φίλτρα - Favorites
+3. Footer
+4. Bottom margin
