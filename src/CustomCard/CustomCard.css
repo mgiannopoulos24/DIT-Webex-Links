@@ -1,0 +1,60 @@
+.card {
+    flex-grow: 1; 
+    margin: 0.5%; 
+    padding: 0;
+    text-align: center; 
+    max-width: calc(33.3333% - 10%);
+    border: 1px solid #746969; 
+    border-radius: 8px; 
+    background-color: #fff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+  
+.card .header {
+    background-color: #fdd835; /* Yellow background */
+    padding: 16px;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    white-space: wrap;
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; 
+    text-align: center;
+    border-radius: 8px; 
+    height: 15%;
+   
+}
+
+.card h1 {
+    font-size: 18px; 
+    margin: 0;
+}
+
+.card .content {
+    padding: 16px;
+}
+
+.card .content p {
+    margin: 4px 0;
+}
+
+
+.schedule-section, .button-section {
+    padding: 16px;
+    text-align: center;
+}
+
+.button-section {
+    display: flex;
+    justify-content: space-between; /* Distribute space equally around items */
+    padding: 10px; /* Add padding around the button section */
+}
+
+.button-section .MuiButton-root {
+    flex: 1; 
+    margin: 0 5px; 
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: none;
+}
