@@ -7,7 +7,7 @@ const App = () => {
     <>
       <div className='app'>
 
-        <h1>DIT Webex</h1>
+        <h1>DIT Webex Links</h1>
         <h3>Εαρινό Εξάμηνο 2024</h3>
         <hr />
 
@@ -48,31 +48,31 @@ const App = () => {
           <CustomCard title="Τεχνολογίες Εφαρμογών Διαδικτύου" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={6} />
 
           {/*8th Semester */}
-          <CustomCard title="Αλγοριθμική Επίλυση Προβλημάτων" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Ανάπτυξη Υλικού-Λογισμικού για Ενσωματωμένα Συστήματα" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Ασύρματες Zεύξεις" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Διοίκηση Έργων και Τεχνικές Παρουσίασης και Συγγραφής Επιστημονικών Εκθέσεων" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Ειδικά Θέματα Επικοινωνιών και Επεξεργασίας Σήματος: Γραμμές μεταφοράς, κυματοδηγοί και οπτικές ίνες" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Ειδικά Θέματα Θεωρητικής Πληροφορικής: Αλγόριθμοι Δομικής Βιοπληροφορικής" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Ειδικά Θέματα Υπολογιστικών Συστημάτων και Εφαρμογών" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Ειδικά Θέματα Υπολογιστικών Συστημάτων και Εφαρμογών: Υπολογιστικά Συστήματα Μεγάλης Κλίμακας" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Επεξεργασία Εικόνας" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Επεξεργασία Ομιλίας και Φυσικής Γλώσσας" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Επεξεργασία Στοχαστικών Σημάτων" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Θεωρία Γραφημάτων" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Ιστορία της Πληροφορικής και των Τηλεπικοινωνιών" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Καινοτομία και Επιχειρηματικότητα" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Κρυπτογραφία" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Μικροοικονομική Ανάλυση" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Μουσική Πληροφορική" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Παράλληλοι Αλγόριθμοι" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Προστασία και Ασφάλεια Υπολογιστικών Συστημάτων" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Σημασιολογία Γλωσσών Προγραμματισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Σχολική Τάξη & Μικροδιδασκαλία" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Τεχνολογία Λογισμικού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Υπολογιστική Γεωμετρία" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Υπολογιστική Θεωρία Μηχανικής Μάθησης" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
-          <CustomCard title="Φωτονική" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={8} />
+          <CustomCard title="Αλγοριθμική Επίλυση Προβλημάτων" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Ανάπτυξη Υλικού-Λογισμικού για Ενσωματωμένα Συστήματα" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Ασύρματες Zεύξεις" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Διοίκηση Έργων και Τεχνικές Παρουσίασης και Συγγραφής Επιστημονικών Εκθέσεων" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Ειδικά Θέματα Επικοινωνιών και Επεξεργασίας Σήματος: Γραμμές μεταφοράς, κυματοδηγοί και οπτικές ίνες" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Ειδικά Θέματα Θεωρητικής Πληροφορικής: Αλγόριθμοι Δομικής Βιοπληροφορικής" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Ειδικά Θέματα Υπολογιστικών Συστημάτων και Εφαρμογών" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Ειδικά Θέματα Υπολογιστικών Συστημάτων και Εφαρμογών: Υπολογιστικά Συστήματα Μεγάλης Κλίμακας" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Επεξεργασία Εικόνας" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Επεξεργασία Ομιλίας και Φυσικής Γλώσσας" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Επεξεργασία Στοχαστικών Σημάτων" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Θεωρία Γραφημάτων" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Ιστορία της Πληροφορικής και των Τηλεπικοινωνιών" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Καινοτομία και Επιχειρηματικότητα" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Κρυπτογραφία" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Μικροοικονομική Ανάλυση" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Μουσική Πληροφορική" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Παράλληλοι Αλγόριθμοι" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Προστασία και Ασφάλεια Υπολογιστικών Συστημάτων" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Σημασιολογία Γλωσσών Προγραμματισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Σχολική Τάξη & Μικροδιδασκαλία" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Τεχνολογία Λογισμικού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Υπολογιστική Γεωμετρία" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Υπολογιστική Θεωρία Μηχανικής Μάθησης" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
+          <CustomCard title="Φωτονική" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="" semester={8} />
 
 
 
