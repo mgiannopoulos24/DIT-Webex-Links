@@ -25,6 +25,7 @@ const CustomCard = ({ title, schedule, link, semester }) => {
                 <h1>{title}</h1>
             </div>
             <div className="content" style={{ flex: '1', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                <h6>Εξάμηνο: {semester}ο</h6>
                 <div className="schedule-section">
                     <h3 style={{ textDecoration: "underline", textAlign: "center" }}>Πρόγραμμα:</h3>
                     <ul style={{ listStyle: "none", padding: "0", textAlign: "center" }}>

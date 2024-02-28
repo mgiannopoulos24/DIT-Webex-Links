@@ -20,29 +20,7 @@ const App=()=> {
         <CustomCard title="Λογικός Προγραμματισμός" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
         <CustomCard title="Μαθηματικά Πληροφορικής" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
         <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
-        <CustomCard title="Θεωρία Υπολογισμού" schedule="Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00" link="uoa.webex.com" semester={4}/>
+        
       </div>
     </div>
     </>
