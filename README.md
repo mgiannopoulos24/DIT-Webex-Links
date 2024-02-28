@@ -11,3 +11,7 @@
 
 Η σχεδίαση έγινε με παρόμοιο τρόπο όπως η εξής σελίδα: [Quiz App](https://starlit-daffodil-2e4733.netlify.app/). 
 Credits στην original creator.
+
+### To-Do list
+1. Live indicator (με βάση την τρέχουσα ώρα και τη διάλεξη)
+2. Φίλτρα - Favorites
