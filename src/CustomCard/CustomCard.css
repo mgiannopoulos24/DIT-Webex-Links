@@ -6,10 +6,15 @@
     max-width: calc(33.3333% - 10%);
     border: 1px solid #746969; 
     border-radius: 8px; 
-    background-color: #fff; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    background-color: white; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.1s;
 }
 
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
   
 .card .header {
     background-color: #fdd835; /* Yellow background */
@@ -21,7 +26,8 @@
     overflow: hidden; /* Hide overflow */
     text-overflow: ellipsis; 
     text-align: center;
-    border-radius: 8px; 
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;  
     height: 15%;
    
 }

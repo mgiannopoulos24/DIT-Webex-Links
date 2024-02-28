@@ -2,9 +2,16 @@
   display: flex;
   align-items: center;
   flex-direction: column; 
+  background-color: transparent;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgb(150, 198, 240);
-  background-size: cover;
-  background-position: center;
+  min-height: 100vh; /* Ensure the body takes up the full viewport height */
 }
 
 .app h1 {
@@ -30,6 +37,7 @@
 
 .main {
   display: flex;
+  margin: 20px;
   justify-content: center;
   flex-wrap: wrap; 
   gap: 1%; 
