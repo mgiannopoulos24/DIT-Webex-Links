@@ -9,7 +9,7 @@
 1. React
 2. HTML, CSS, Javascript
 
-Η σχεδίαση έγινε με παρόμοιο τρόπο όπως η εξής σελίδα: [Quiz App](https://starlit-daffodil-2e4733.netlify.app/). 
+Έμπνευση ήταν η σελίδα [Quiz App](https://starlit-daffodil-2e4733.netlify.app/). 
 Credits στην original creator.
 
 ### To-Do list
