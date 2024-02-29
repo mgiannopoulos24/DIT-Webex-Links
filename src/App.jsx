@@ -1,6 +1,6 @@
 import './App.css';
 import CustomCard from './CustomCard/CustomCard';
-
+import Footer from './footer';
 
 const App = () => {
   return (
@@ -77,6 +77,7 @@ const App = () => {
 
 
         </div>
+        <Footer/>
       </div>
     </>
 
