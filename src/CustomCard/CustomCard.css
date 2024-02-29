@@ -29,6 +29,7 @@
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;  
     height: 15%;
+    color: #000000;
    
 }
 
@@ -39,6 +40,7 @@
 
 .card .content {
     padding: 16px;
+    
 }
 
 .card .content p {
@@ -46,9 +48,16 @@
 }
 
 
-.schedule-section, .button-section {
+.schedule-section {
     padding: 16px;
     text-align: center;
+    color: #000000;
+  }
+
+.button-section {
+    padding: 16px;
+    text-align: center;
+    
 }
 
 .button-section {
