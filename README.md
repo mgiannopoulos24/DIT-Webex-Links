@@ -10,7 +10,7 @@
 2. HTML, CSS, Javascript
 
 Έμπνευση ήταν η σελίδα [Quiz App](https://starlit-daffodil-2e4733.netlify.app/). <br>
-Credits στην original creator.
+Credits στην [original creator](https://github.com/matinanadali).
 
 ### To-Do list
 1. Live indicator (με βάση την τρέχουσα ώρα και τη διάλεξη)
@@ -19,4 +19,4 @@ Credits στην original creator.
 4. Bottom margin
 5. ~~Search~~
 6. ~~Διόρθωση search bar~~
-7. Dark Mode
+7. ~~Dark Mode~~
