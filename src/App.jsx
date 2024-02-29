@@ -84,7 +84,7 @@ const App = () => {
             variant="outlined"
             value={searchInput}
             onChange={handleSearchInputChange}
-            sx={{width:'50%', margin:'0 3%',
+            sx={{width:'70%', margin:'0 3%',
             '& .MuiInputLabel-root': {
               color: darkMode ? '#ffffff' : 'rgba(0, 0, 0, 0.54)', // Set label color
             },

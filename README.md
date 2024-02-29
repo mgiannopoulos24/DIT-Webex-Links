@@ -20,3 +20,4 @@ Credits στην [original creator](https://github.com/matinanadali).
 5. ~~Search~~
 6. ~~Διόρθωση search bar~~
 7. ~~Dark Mode~~
+8. Εργαστήρια για κάποια μαθήματα
