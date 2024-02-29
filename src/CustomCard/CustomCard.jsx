@@ -26,7 +26,7 @@ const CustomCard = ({ title, schedule, webex, eclass, semester, isFavorite, togg
     toggleFavorite(title);
   };
 
-  
+
 
   return (
     <div className="card" style={{ flex: '1', margin: '0.5%', minWidth: '300px', display: 'flex', flexDirection: 'column' }}>
@@ -46,8 +46,10 @@ const CustomCard = ({ title, schedule, webex, eclass, semester, isFavorite, togg
         <div className="button-section" style={{ textAlign: 'center', marginBottom: '16px' }}>
           <Button variant="contained" color="primary" href={eclass}>eClass</Button>
           <Button variant="contained" color="success" href={webex}>Webex</Button>
-          <Button variant="contained" color={isFavorite ? "secondary" : "primary"} onClick={handleFavoriteToggle}>
-            {isFavorite ? 'Remove from favorites' : 'Add to favorites'}
+        </div>
+        <div className="favorite-section">
+          <Button variant="text" color="info" onClick={handleFavoriteToggle}>
+            {isFavorite ? <StarIcon /> : <StarBorderIcon />}
           </Button>
         </div>
       </div>
