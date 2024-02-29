@@ -18,3 +18,5 @@ Credits στην original creator.
 3. ~~Footer~~
 4. Bottom margin
 5. ~~Search~~
+6. ~~Διόρθωση search bar~~
+7. Dark Mode

@@ -65,7 +65,7 @@ const App = () => {
             variant="outlined"
             value={searchInput}
             onChange={handleSearchInputChange}
-            sx={{width:'30%', margin:'0 3%'}}
+            sx={{width:'50%', margin:'0 3%'}}
             size='small'
             InputProps={{
               endAdornment: (
