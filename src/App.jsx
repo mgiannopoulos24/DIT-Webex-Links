@@ -62,7 +62,7 @@ const App = () => {
           <h3>Εαρινό Εξάμηνο 2024</h3>
           <hr />
           <TextField
-            label="Αναζήτηση"
+            label="Αναζήτηση μαθήματος"
             variant="outlined"
             value={searchInput}
             onChange={handleSearchInputChange}
