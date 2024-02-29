@@ -34,9 +34,9 @@ const CustomCard = ({ title, schedule, webex, eclass, semester, isFavorite, togg
         <h1>{title}</h1>
       </div>
       <div className="content" style={{ flex: '1', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-        <h6 style={{ fontWeight: "bold" }}>Εξάμηνο: {semester}ο</h6>
+        <h6 style={{ fontWeight: "bold",fontSize:18 }}>Εξάμηνο: {semester}ο</h6>
         <div className="schedule-section">
-          <h3 style={{ textDecoration: "underline", textAlign: "center" }}>Πρόγραμμα:</h3>
+          <h4 style={{ textDecoration: "underline", textAlign: "center" }}>Πρόγραμμα:</h4>
           <ul style={{ listStyle: "none", padding: "0", textAlign: "center" }}>
             {scheduleItems.map((item, index) => (
               <li key={index}>{item}</li>
