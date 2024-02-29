@@ -8,6 +8,7 @@ import InputAdornment from '@mui/material/InputAdornment';
 import SearchIcon from '@mui/icons-material/Search';
 import courseData from './courseData.json';
 import Button from '@mui/material/Button';
+import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
 
 const App = () => {
   const [courses, setCourses] = useState([]);
@@ -61,7 +62,7 @@ const App = () => {
           <h3>Εαρινό Εξάμηνο 2024</h3>
           <hr />
           <TextField
-            label="Αναζήτηση"
+            label="Αναζήτηση μαθήματος"
             variant="outlined"
             value={searchInput}
             onChange={handleSearchInputChange}
@@ -78,7 +79,9 @@ const App = () => {
           />
           <br/>
           <Button variant="contained" color="secondary" onClick={clearFavorites} style={{textTransform:'none'}}>
-            Καθαρισμός Αγαπημένων
+            <DeleteRoundedIcon/>
+            &nbsp;
+            Καθαρισμός αγαπημένων
           </Button>
   
 
