@@ -8,6 +8,7 @@ import InputAdornment from '@mui/material/InputAdornment';
 import SearchIcon from '@mui/icons-material/Search';
 import courseData from './courseData.json';
 import Button from '@mui/material/Button';
+import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
 
 const App = () => {
   const [courses, setCourses] = useState([]);
@@ -78,7 +79,9 @@ const App = () => {
           />
           <br/>
           <Button variant="contained" color="secondary" onClick={clearFavorites} style={{textTransform:'none'}}>
-            Καθαρισμός Αγαπημένων
+            <DeleteRoundedIcon/>
+            &nbsp;
+            Καθαρισμός αγαπημένων
           </Button>
   
 
