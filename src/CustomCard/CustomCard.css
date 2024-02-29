@@ -4,7 +4,7 @@
     padding: 0;
     text-align: center; 
     max-width: calc(33.3333% - 10%);
-    border: 1px solid #746969; 
+    /* border: 1px solid #746969;  */
     border-radius: 8px; 
     background-color: white; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
