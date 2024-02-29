@@ -1,7 +1,7 @@
 import "./CustomCard.css";
 import Button from "@mui/material/Button";
-import StarIcon from '@mui/icons-material/Star';
-import StarBorderIcon from '@mui/icons-material/StarBorder';
+import StarIcon from '@mui/icons-material/StarRounded';
+import StarBorderIcon from '@mui/icons-material/StarBorderRounded';
 
 const CustomCard = ({ title, schedule, webex, eclass, semester, isFavorite, toggleFavorite }) => {
   const semesterColors = {
