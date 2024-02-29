@@ -2,6 +2,8 @@ import "./CustomCard.css";
 import Button from "@mui/material/Button";
 import StarIcon from '@mui/icons-material/StarRounded';
 import StarBorderIcon from '@mui/icons-material/StarBorderRounded';
+import VideocamRoundedIcon from '@mui/icons-material/VideocamRounded';
+import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 
 const CustomCard = ({ title, schedule, webex, eclass, semester, isFavorite, toggleFavorite }) => {
   const semesterColors = {
@@ -34,7 +36,7 @@ const CustomCard = ({ title, schedule, webex, eclass, semester, isFavorite, togg
         <h1>{title}</h1>
       </div>
       <div className="content" style={{ flex: '1', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-        <h6 style={{ fontWeight: "bold",fontSize:18 }}>Εξάμηνο: {semester}ο</h6>
+        <h6 style={{ fontWeight: "bold", fontSize: 18 }}>Εξάμηνο: {semester}ο</h6>
         <div className="schedule-section">
           <h4 style={{ textDecoration: "underline", textAlign: "center" }}>Πρόγραμμα:</h4>
           <ul style={{ listStyle: "none", padding: "0", textAlign: "center" }}>
@@ -44,8 +46,16 @@ const CustomCard = ({ title, schedule, webex, eclass, semester, isFavorite, togg
           </ul>
         </div>
         <div className="button-section" style={{ textAlign: 'center', marginBottom: '16px' }}>
-          <Button variant="contained" color="primary" href={eclass}>eClass</Button>
-          <Button variant="contained" color="success" href={webex}>Webex</Button>
+          <Button variant="contained" color="primary" href={eclass}>
+            <HomeRoundedIcon />
+            &nbsp;
+            eClass
+          </Button>
+          <Button variant="contained" color="success" href={webex}>
+            <VideocamRoundedIcon />
+            &nbsp;
+            Webex
+          </Button>
         </div>
         <div className="favorite-section">
           <Button variant="text" color="info" onClick={handleFavoriteToggle}>
