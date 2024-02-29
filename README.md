@@ -9,12 +9,12 @@
 1. React
 2. HTML, CSS, Javascript
 
-Έμπνευση ήταν η σελίδα [Quiz App](https://starlit-daffodil-2e4733.netlify.app/). 
+Έμπνευση ήταν η σελίδα [Quiz App](https://starlit-daffodil-2e4733.netlify.app/). <br>
 Credits στην original creator.
 
 ### To-Do list
 1. Live indicator (με βάση την τρέχουσα ώρα και τη διάλεξη)
-2. Φίλτρα - Favorites
-3. Footer
+2. ~~Φίλτρα - Favorites~~
+3. ~~Footer~~
 4. Bottom margin
-5. Search
+5. ~~Search~~
