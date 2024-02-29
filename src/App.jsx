@@ -9,10 +9,24 @@ import SearchIcon from '@mui/icons-material/Search';
 import courseData from './courseData.json';
 import Button from '@mui/material/Button';
 import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
+import Brightness4Icon from '@mui/icons-material/Brightness4';
+import Brightness7Icon from '@mui/icons-material/Brightness7';
 
 const App = () => {
   const [courses, setCourses] = useState([]);
   const [searchInput, setSearchInput] = useState('');
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    const newDarkMode = !darkMode; // Calculate the new dark mode state first
+    setDarkMode(newDarkMode); // Update the dark mode state
+  
+    if (newDarkMode) {
+      document.body.classList.add('dark-mode'); // Apply dark mode class
+    } else {
+      document.body.classList.remove('dark-mode'); // Remove dark mode class
+    }
+  };
 
   useEffect(() => {
     const storedFavorites = Cookies.get('favoriteCourses');
@@ -56,17 +70,36 @@ const App = () => {
 
   return (
     <>
+      
       <div className='app'>
-        
+        <div className='dark-mode-toggle' onClick={toggleDarkMode}>
+          {darkMode ? <Brightness7Icon /> : <Brightness4Icon />}
+        </div>
           <h1>DIT Webex Links</h1>
           <h3>Εαρινό Εξάμηνο 2024</h3>
           <hr />
+          
           <TextField
             label="Αναζήτηση μαθήματος"
             variant="outlined"
             value={searchInput}
             onChange={handleSearchInputChange}
-            sx={{width:'50%', margin:'0 3%'}}
+            sx={{width:'50%', margin:'0 3%',
+            '& .MuiInputLabel-root': {
+              color: darkMode ? '#ffffff' : 'rgba(0, 0, 0, 0.54)', // Set label color
+            },
+            '& .MuiOutlinedInput-root': {
+              '& fieldset': {
+                borderColor: darkMode ? '#ffffff' : 'rgba(0, 0, 0, 0.23)', // Set border color
+              },
+              '& input': {
+                color: darkMode ? '#ffffff' : 'rgba(0, 0, 0, 0.87)', // Set text color
+              },
+            },
+            '& .MuiSvgIcon-root': {
+              color: darkMode ? '#ffffff' : 'rgba(0, 0, 0, 0.54)', // Set search icon color
+            },          
+            }}
             size='small'
             InputProps={{
               endAdornment: (
@@ -102,7 +135,7 @@ const App = () => {
 
         <Footer />
       </div>
-    </>
+     </>
   );
 };
 

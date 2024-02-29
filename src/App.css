@@ -1,3 +1,12 @@
+:root {
+  --background-color: rgb(150, 198, 240); /* light mode background color */
+  --text-color: #000000; /* light mode text color */
+}
+
+.dark-mode .app hr {
+  background-color: #ffffff; /* Set hr background color to white in dark mode */
+}
+
 .app{
   display: flex;
   align-items: center;
@@ -5,13 +14,20 @@
   background-color: transparent;
 }
 
+.dark-mode {
+  --background-color: #1f1f1f; /* dark mode background color */
+  --text-color: #ffffff; /* dark mode text color */
+}
+
 body {
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(150, 198, 240);
-  min-height: 100vh; /* Ensure the body takes up the full viewport height */
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s; 
+  min-height: 100vh; 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -42,4 +58,12 @@ body {
   justify-content: center;
   flex-wrap: wrap; 
   gap: 1%; 
+}
+
+.dark-mode-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 1000;
 }
