@@ -6,7 +6,7 @@
     max-width: calc(33.3333% - 10%);
     /* border: 1px solid #746969;  */
     border-radius: 8px; 
-    background-color: white; 
+    background-color: whitesmoke; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: 0.1s;
 }
@@ -44,11 +44,17 @@
     
 }
 
-.dark-mode .card .content , .dark-mode .card .content h6, .dark-mode .card .header, .card .schedule-section{
+.dark-mode .card .content , .dark-mode .card .content h6, .dark-mode .card .header, .dark-mode .card .schedule-section{
     background-color: #a2a2a2; /* Dark background for dark mode */
     color: #ffffff; /* Light text color for dark mode */
+    
+    
 }
 
+.dark-mode .card .content{
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px; 
+}
 
 .card .content p {
     margin: 4px 0;
