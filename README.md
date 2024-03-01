@@ -4,12 +4,16 @@
 
 Εφαρμογή που συγκεντρώνει όλους τους συνδέσμους Webex για όσο διεξάγονται τα μαθήματα του DIT μέσω της πλατφόρμας Webex.
 
-## Τεχνολογίες που χρησιμοποιήθηκαν
+## Εργαλεία σχεδιασμού
 
 1. React
-2. HTML, CSS, Javascript
-3. NodeJS
+2. NodeJS
 
+## Γλώσσες που χρησιμοποιήθηκαν
+
+1. HTML
+2. CSS 
+3. JavaScript
 Έμπνευση ήταν η σελίδα [Quiz App](https://starlit-daffodil-2e4733.netlify.app/). <br>
 Credits στην [original creator](https://github.com/matinanadali).
 
