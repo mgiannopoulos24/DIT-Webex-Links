@@ -125,7 +125,7 @@ const App = () => {
 
           />
           <br/>
-          <Button variant="contained" color="secondary" onClick={clearFavorites} style={{textTransform:'none'}}>
+          <Button variant="contained" color="error" onClick={clearFavorites} style={{textTransform:'none'}}>
             <DeleteRoundedIcon/>
             &nbsp;
             Καθαρισμός αγαπημένων

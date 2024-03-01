@@ -7,10 +7,10 @@ import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 
 const CustomCard = ({ title, schedule, webex, eclass, semester, isFavorite, toggleFavorite,darkMode }) => {
   const semesterColors = {
-    2: '#59D5E0',
+    2: '#add8e6',
     4: '#F5DD61',
     6: '#FAA300',
-    8: '#F4538A'
+    8: '#ffb6c1'
   };
 
   const headerColor = semesterColors[semester];
