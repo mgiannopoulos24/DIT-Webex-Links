@@ -33,6 +33,7 @@
    
 }
 
+
 .card h1 {
     font-size: 18px; 
     margin: 0;
@@ -41,6 +42,11 @@
 .card .content {
     padding: 16px;
     
+}
+
+.dark-mode .card .content {
+    background-color: #5e5e5e; /* Dark background for dark mode */
+    color: #ffffff; /* Light text color for dark mode */
 }
 
 .card .content p {
@@ -78,7 +84,7 @@ h6{
     margin: 0;
     font-size: 14px;
     font-weight: 400;
-    color: #333;
+    color: black;
 }
 
 .favorite-section

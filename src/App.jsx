@@ -21,7 +21,10 @@ const App = () => {
   const toggleDarkMode = () => {
     const newDarkMode = !darkMode; // Calculate the new dark mode state first
     setDarkMode(newDarkMode); // Update the dark mode state
-  
+    
+    // Set a cookie to remember the user's preference
+    Cookies.set('darkMode', newDarkMode ? 'enabled' : 'disabled', { expires: 365 });
+
     if (newDarkMode) {
       document.body.classList.add('dark-mode'); // Apply dark mode class
     } else {
@@ -30,6 +33,16 @@ const App = () => {
   };
 
   useEffect(() => {
+
+    const userPrefersDark = Cookies.get('darkMode');
+    if (userPrefersDark === 'enabled') {
+      setDarkMode(true);
+      document.body.classList.add('dark-mode');
+    } else if (userPrefersDark === 'disabled') {
+      setDarkMode(false);
+      document.body.classList.remove('dark-mode');
+    }
+    
     const storedFavorites = Cookies.get('favoriteCourses');
     const favoriteCourses = storedFavorites ? JSON.parse(storedFavorites) : [];
 
@@ -130,6 +143,7 @@ const App = () => {
               semester={course.semester}
               isFavorite={course.isFavorite}
               toggleFavorite={() => toggleFavorite(course.key)}
+              darkMode={darkMode}
             />
           ))}
         </div>

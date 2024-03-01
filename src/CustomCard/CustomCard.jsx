@@ -5,7 +5,7 @@ import StarBorderIcon from '@mui/icons-material/StarBorderRounded';
 import VideocamRoundedIcon from '@mui/icons-material/VideocamRounded';
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 
-const CustomCard = ({ title, schedule, webex, eclass, semester, isFavorite, toggleFavorite }) => {
+const CustomCard = ({ title, schedule, webex, eclass, semester, isFavorite, toggleFavorite,darkMode }) => {
   const semesterColors = {
     2: '#59D5E0',
     4: '#F5DD61',
