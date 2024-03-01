@@ -44,10 +44,11 @@
     
 }
 
-.dark-mode .card .content {
+.dark-mode .card .content , .dark-mode .card .content h6, .dark-mode .card .header, .card .schedule-section{
     background-color: #a2a2a2; /* Dark background for dark mode */
     color: #ffffff; /* Light text color for dark mode */
 }
+
 
 .card .content p {
     margin: 4px 0;
