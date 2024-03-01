@@ -34,6 +34,14 @@
   },
   {
     "key": "5",
+    "title": "Εφαρμοσμένα Μαθηματικά",
+    "schedule": "Δευτέρα 09:00 - 11:00, Τρίτη 09:00 - 11:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://eclass.uoa.gr/courses/DI609/",
+    "semester": 2
+  },
+  {
+    "key": "6",
     "title": "Ηλεκτρομαγνητισμός - Οπτική - Σύγχρονη Φυσική",
     "schedule": "Τρίτη 15:00 - 18:00, Τετάρτη 09:00 - 11:00 (Φ), Πέμπτη 15:00 - 18:00",
     "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
@@ -41,7 +49,7 @@
     "semester": 2
   },
   {
-    "key": "6",
+    "key": "7",
     "title": "Αλγόριθμοι και Πολυπλοκότητα (άρτιοι)",
     "schedule": "Τετάρτη 11:00 - 13:00, Παρασκευή 13:00 - 15:00",
     "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
@@ -49,7 +57,7 @@
     "semester": 4
   },
   {
-    "key": "7",
+    "key": "8",
     "title": "Αλγόριθμοι και Πολυπλοκότητα (περιττοί)",
     "schedule": "Τετάρτη 11:00 - 13:00, Παρασκευή 13:00 - 15:00",
     "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
@@ -57,7 +65,7 @@
     "semester": 4
   },
   {
-    "key": "8",
+    "key": "9",
     "title": "Δίκτυα Επικοινωνιών 1",
     "schedule": "Πέμπτη 11:00 - 13:00, Παρασκευή 09:00 - 11:00",
     "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
@@ -65,7 +73,15 @@
     "semester": 4
   },
   {
-    "key": "9",
+    "key": "10",
+    "title": "Εργαστήριο Δικτύων Επικοινωνιών 1",
+    "schedule": "Προσφέρεται για 20 άτομα το εξάμηνο. Sorry",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://eclass.uoa.gr/courses/DI349/",
+    "semester": 4
+  },
+  {
+    "key": "11",
     "title": "Συστήματα Επικοινωνιών",
     "schedule": "Πέμπτη 13:00 - 15:00, Παρασκευή 11:00 - 13:00",
     "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
@@ -73,7 +89,7 @@
     "semester": 4
   },
   {
-    "key": "10",
+    "key": "12",
     "title": "Σχεδίαση και Χρήση Βάσεων δεδομένων (άρτιοι)",
     "schedule": "Πέμπτη 09:00 - 11:00, Παρασκευή 15:00 - 17:00",
     "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
@@ -81,7 +97,7 @@
     "semester": 4
   },
   {
-    "key": "11",
+    "key": "13",
     "title": "Σχεδίαση και Χρήση Βάσεων δεδομένων (περιττοί)",
     "schedule": "Τρίτη 13:00 - 15:00, Τετάρτη 13:00 - 15:00",
     "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
@@ -89,39 +105,7 @@
     "semester": 4
   },
   {
-    "key": "12",
-    "title": "Εργαστήριο Δικτύων Επικοινωνιών 1",
-    "schedule": "ΔΓ,ΔΑ",
-    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
-    "eclass": "https://eclass.uoa.gr/courses/DI349/",
-    "semester": 4
-  },
-  {
-    "key": "13",
-    "title": "Αλγόριθμοι-Θεμελιώσεις Μηχανικής Μάθησης",
-    "schedule": "Τρίτη 15:00 - 17:00, Πέμπτη 15:00 - 17:00",
-    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
-    "eclass": "https://eclass.uoa.gr/courses/DI627/",
-    "semester": 6
-  },
-  {
     "key": "14",
-    "title": "Αναγνώριση Προτύπων–Μηχανική Μάθηση",
-    "schedule": "Τετάρτη 17:00 - 20:00",
-    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
-    "eclass": "https://eclass.uoa.gr/courses/DI499/",
-    "semester": 6
-  },
-  {
-    "key": "15",
-    "title": "Ανάλυση/Σχεδίαση Συστημάτων Λογισμικού",
-    "schedule": "Πέμπτη 17:00-19:00",
-    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
-    "eclass": "https://eclass.uoa.gr/courses/D50/",
-    "semester": 6
-  },
-  {
-    "key": "16",
     "title": "Ασύρματα Δίκτυα Αισθητήρων",
     "schedule": "Δευτέρα 15:00 - 17:00, Πέμπτη 09:00 - 11:00",
     "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
@@ -129,7 +113,39 @@
     "semester": 6
   },
   {
+    "key": "15",
+    "title": "Προγραμματισμός Συστήματος (άρτιοι - περιττοί)",
+    "schedule": "Δευτέρα 13:00 - 15:00, Τρίτη 11:00 - 13:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://eclass.uoa.gr/courses/DI507/",
+    "semester": 6
+  },
+  {
+    "key": "16",
+    "title": "Αλγόριθμοι-Θεμελιώσεις Μηχανικής Μάθησης",
+    "schedule": "Τρίτη 15:00 - 17:00, Πέμπτη 15:00 - 17:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://eclass.uoa.gr/courses/DI627/",
+    "semester": 6
+  },
+  {
     "key": "17",
+    "title": "Αναγνώριση Προτύπων–Μηχανική Μάθηση",
+    "schedule": "Τετάρτη 17:00 - 20:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://eclass.uoa.gr/courses/DI499/",
+    "semester": 6
+  },
+  {
+    "key": "18",
+    "title": "Ανάλυση/Σχεδίαση Συστημάτων Λογισμικού",
+    "schedule": "Πέμπτη 17:00-19:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://eclass.uoa.gr/courses/D50/",
+    "semester": 6
+  },
+  {
+    "key": "19",
     "title": "Διαχείριση Δικτύων",
     "schedule": "Τρίτη 15:00 - 17:00, Παρασκευή 13:00 - 15:00",
     "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
@@ -137,15 +153,7 @@
     "semester": 6
   },
   {
-    "key": "18",
-    "title": "Ειδικά Θέματα Επικοινωνιών και Επεξεργασίας Σήματος – Πολυμέσα και Ασύρματη Δικτύωση",
-    "schedule": "Πέμπτη 14:00 - 17:00",
-    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
-    "eclass": "https://eclass.uoa.gr/courses/DI570/",
-    "semester": 6
-  },
-  {
-    "key": "19",
+    "key": "20",
     "title": "Επεξεργασία Στοχαστικών Σημάτων",
     "schedule": "Πέμπτη 11:00 - 13:00, Παρασκευή 15:00 - 17:00",
     "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
@@ -153,7 +161,7 @@
     "semester": 6
   },
   {
-    "key": "20",
+    "key": "21",
     "title": "Επιστημονικοί Υπολογισμοί",
     "schedule": "Τετάρτη 11:00 - 13:00, Πέμπτη 11:00 - 13:00",
     "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
@@ -161,7 +169,15 @@
     "semester": 6
   },
   {
-    "key": "21",
+    "key": "22",
+    "title": "Εργαστήριο Ηλεκτρονικής",
+    "schedule": "Τετάρτη 15:00 - 16:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://eclass.uoa.gr/courses/DI365/",
+    "semester": 6
+  },  
+  {
+    "key": "23",
     "title": "Ηλεκτρονική",
     "schedule": "Τρίτη 13:00 - 15:00, Τετάρτη 13:00 - 16:00",
     "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
@@ -169,15 +185,16 @@
     "semester": 6
   },
   {
-    "key": "22",
+    "key": "24",
     "title": "Θεωρία Πληροφορίας και Κωδίκων",
     "schedule": "Πέμπτη 13:00 - 17:00",
     "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
     "eclass": "https://eclass.uoa.gr/courses/D62/",
     "semester": 6
   },
+  
   {
-    "key": "23",
+    "key": "25",
     "title": "Θεωρία Υπολογισμού",
     "schedule": "Δευτέρα 09:00 - 11:00, Πέμπτη 09:00 - 11:00",
     "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
@@ -185,16 +202,7 @@
     "semester": 6
   },
   {
-    "key": "24",
-    "title": "Λογικός Προγραμματισμός",
-    "schedule": "Δεν διδάσκεται 😞",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
-    "semester": 6
-  },
-
-  {
-    "key": "25",
+    "key": "26",
     "title": "Μαθηματικά Πληροφορικής",
     "schedule": "Τρίτη 09:00 - 11:00, Τρίτη 17:00 - 18:00 (Φ), Τετάρτη 13:00 - 15:00",
     "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
@@ -202,7 +210,7 @@
     "semester": 6
   },
   {
-    "key": "26",
+    "key": "27",
     "title": "Μεταγλωττιστές",
     "schedule": "Δευτέρα 11:00 - 13:00, Παρασκευή 09:00 - 11:00",
     "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
@@ -210,15 +218,15 @@
     "semester": 6
   },
   {
-    "key": "27",
-    "title": "Προγραμματισμός Συστήματος (άρτιοι - περιττοί)",
-    "schedule": "Δευτέρα 13:00 - 15:00, Τετάρτη 11:00 - 13:00",
-    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
-    "eclass": "https://eclass.uoa.gr/courses/DI507/",
-    "semester": 6
-  },
-  {
     "key": "28",
+    "title": "Ειδικά Θέματα Επικοινωνιών και Επεξεργασίας Σήματος – Πολυμέσα και Ασύρματη Δικτύωση",
+    "schedule": "Πέμπτη 14:00 - 17:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://eclass.uoa.gr/courses/DI570/",
+    "semester": 6
+  },     
+  {
+    "key": "29",
     "title": "Τεχνικές Εξόρυξης Δεδομένων",
     "schedule": "Πέμπτη 11:00 - 13:00, Παρασκευή 11:00 - 13:00",
     "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
@@ -226,7 +234,7 @@
     "semester": 6
   },
   {
-    "key": "29",
+    "key": "30",
     "title": "Τεχνολογίες Εφαρμογών Διαδικτύου",
     "schedule": "Δευτέρα 17:00 - 20:00",
     "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
@@ -234,202 +242,155 @@
     "semester": 6
   },
   {
-    "key": "30",
-    "title": "Αλγοριθμική Επίλυση Προβλημάτων",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
-    "semester": 8
-  },
-  {
     "key": "31",
-    "title": "Ανάπτυξη Υλικού-Λογισμικού για Ενσωματωμένα Συστήματα",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
+    "title": "Αλγοριθμική Επίλυση Προβλημάτων",
+    "schedule": "Τρίτη 11:00 - 13:00, Τετάρτη 11:00 - 13:00,",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://eclass.uoa.gr/courses/DI640/",
     "semester": 8
   },
+  
   {
     "key": "32",
     "title": "Ασύρματες Zεύξεις",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
+    "schedule": "Δευτέρα 09:00 - 11:00, Τετάρτη 09:00 - 11:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://eclass.uoa.gr/courses/D72/",
     "semester": 8
   },
   {
     "key": "33",
     "title": "Διοίκηση Έργων και Τεχνικές Παρουσίασης και Συγγραφής Επιστημονικών Εκθέσεων",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
+    "schedule": "Παρασκευή 11:00 - 13:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://eclass.uoa.gr/courses/D82/",
     "semester": 8
   },{
     "key": "34",
-    "title": "Ειδικά Θέματα Επικοινωνιών και Επεξεργασίας Σήματος: Γραμμές μεταφοράς, κυματοδηγοί και οπτικές ίνες",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
+    "title": "Ειδικά Θέματα Επικοινωνιών και Επεξεργασίας Σήματος: Κυματοδηγοί, Γραμμές Μεταφοράς και Οπτικές Ίνες",
+    "schedule": "Δευτέρα 15:00 - 18:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://eclass.uoa.gr/courses/D64/",
     "semester": 8
   },
   {
     "key": "35",
-    "title": "Ειδικά Θέματα Θεωρητικής Πληροφορικής: Αλγόριθμοι Δομικής Βιοπληροφορικής",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
+    "title": "Επεξεργασία Εικόνας",
+    "schedule": "Δευτέρα 13:00 - 16:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://eclass.uoa.gr/courses/DI624/",
     "semester": 8
   },
   {
     "key": "36",
-    "title": "Ειδικά Θέματα Υπολογιστικών Συστημάτων και Εφαρμογών",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
+    "title": "Ιστορία της Πληροφορικής και των Τηλεπικοινωνιών",
+    "schedule": "Τρίτη 15:00 - 18:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://eclass.uoa.gr/courses/PHS404/",
     "semester": 8
   },
   {
     "key": "37",
-    "title": "Ειδικά Θέματα Υπολογιστικών Συστημάτων και Εφαρμογών: Υπολογιστικά Συστήματα Μεγάλης Κλίμακας",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
+    "title": "Καινοτομία και Επιχειρηματικότητα",
+    "schedule": "Παρασκευή 13:00 - 16:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://eclass.uoa.gr/courses/DI368/",
     "semester": 8
   },
   {
     "key": "38",
-    "title": "Επεξεργασία Εικόνας",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
+    "title": "Μικροοικονομική Ανάλυση",
+    "schedule": "Τρίτη 17:00 - 20:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://eclass.uoa.gr/courses/DI424/",
     "semester": 8
   },
   {
     "key": "39",
-    "title": "Επεξεργασία Ομιλίας και Φυσικής Γλώσσας",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
+    "title": "Μουσική Πληροφορική",
+    "schedule": "Τετάρτη 13:00 - 16:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
     "semester": 8
   },
   {
     "key": "40",
-    "title": "Επεξεργασία Στοχαστικών Σημάτων",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
+    "title": "Παράλληλοι Αλγόριθμοι",
+    "schedule": "Τετάρτη 11:00 - 15:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://eclass.uoa.gr/courses/DI307/",
     "semester": 8
   },
   {
     "key": "41",
-    "title": "Θεωρία Γραφημάτων",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
+    "title": "Προστασία και Ασφάλεια Υπολογιστικών Συστημάτων",
+    "schedule": "Τετάρτη 11:00 - 13:00, Πέμπτη 13:00 - 15:00",
+    "webex": "https://youtu.be/g_93xQfRjEI?t=80",
+    "eclass": "https://eclass.uoa.gr/courses/DI639/",
     "semester": 8
   },
   {
     "key": "42",
-    "title": "Ιστορία της Πληροφορικής και των Τηλεπικοινωνιών",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
+    "title": "Σημασιολογία Γλωσσών Προγραμματισμού",
+    "schedule": "Πέμπτη 12:00 - 14:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://eclass.uoa.gr/courses/D241/",
     "semester": 8
   },
   {
     "key": "43",
-    "title": "Καινοτομία και Επιχειρηματικότητα",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
+    "title": "Σχολική Τάξη & Μικροδιδασκαλία",
+    "schedule": "Δευτέρα 09:00 - 11:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "eclass": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
     "semester": 8
   },
   {
     "key": "44",
-    "title": "Κρυπτογραφία",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
+    "title": "Ειδικά Θέματα Υπολογιστικών Συστημάτων και Εφαρμογών: Υπολογιστικά Συστήματα Μεγάλης Κλίμακας",
+    "schedule": "Παρασκευή 13:00 - 16:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0e",
+    "eclass": "https://eclass.uoa.gr/courses/DI610/",
     "semester": 8
   },
   {
     "key": "45",
-    "title": "Μικροοικονομική Ανάλυση",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
+    "title": "Υπολογιστική Γεωμετρία",
+    "schedule": "Τρίτη 09:00 - 11:00, Παρασκευή 11:00 - 13:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0e",
+    "eclass": "https://eclass.uoa.gr/courses/DI602/",
     "semester": 8
   },
   {
     "key": "46",
-    "title": "Μουσική Πληροφορική",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
+    "title": "Θεωρία Γραφημάτων",
+    "schedule": "Τρίτη 13:00 - 15:00, Τετάρτη 09:00 - 11:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0e",
+    "eclass": "https://eclass.uoa.gr/courses/DI412/",
     "semester": 8
   },
   {
     "key": "47",
-    "title": "Παράλληλοι Αλγόριθμοι",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
+    "title": "Κρυπτογραφία",
+    "schedule": "Τετάρτη 16:00 - 17:00 (Φ), Παρασκευή 13:00 - 16:00",
+    "webex": "https://youtu.be/MQe_MoJ7Iww",
+    "eclass": "https://eclass.uoa.gr/courses/D41/",
     "semester": 8
   },
   {
     "key": "48",
-    "title": "Προστασία και Ασφάλεια Υπολογιστικών Συστημάτων",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
+    "title": "Υπολογιστική Θεωρία Μηχανικής Μάθησης",
+    "schedule": "Τρίτη 13:00-15:00, Τετάρτη 13:00 - 15:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0e",
+    "eclass": "https://eclass.uoa.gr/courses/DI626/",
     "semester": 8
   },
   {
     "key": "49",
-    "title": "Σημασιολογία Γλωσσών Προγραμματισμού",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
-    "semester": 8
-  },
-  {
-    "key": "50",
-    "title": "Σχολική Τάξη & Μικροδιδασκαλία",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
-    "semester": 8
-  },
-  {
-    "key": "51",
-    "title": "Τεχνολογία Λογισμικού",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
-    "semester": 8
-  },
-  {
-    "key": "52",
-    "title": "Υπολογιστική Γεωμετρία",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
-    "semester": 8
-  },
-  {
-    "key": "53",
-    "title": "Υπολογιστική Θεωρία Μηχανικής Μάθησης",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
-    "semester": 8
-  },
-  {
-    "key": "54",
     "title": "Φωτονική",
-    "schedule": "Δευτέρα 00:15 - 02:00, Τετάρτη 11:15 - 13:00",
-    "webex": "webex_link_here",
-    "eclass": "eclass_link_here",
+    "schedule": "Δευτέρα 17:00 - 20:00",
+    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0e",
+    "eclass": "https://eclass.uoa.gr/courses/D71/",
     "semester": 8
   }
 ]
