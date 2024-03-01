@@ -45,7 +45,7 @@
 }
 
 .dark-mode .card .content {
-    background-color: #5e5e5e; /* Dark background for dark mode */
+    background-color: #a2a2a2; /* Dark background for dark mode */
     color: #ffffff; /* Light text color for dark mode */
 }
 
