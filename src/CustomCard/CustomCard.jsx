@@ -3,7 +3,7 @@ import Button from "@mui/material/Button";
 import StarIcon from '@mui/icons-material/StarRounded';
 import StarBorderIcon from '@mui/icons-material/StarBorderRounded';
 import VideocamRoundedIcon from '@mui/icons-material/VideocamRounded';
-import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
+import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded';
 
 const CustomCard = ({ title, schedule, webex, eclass, semester, isFavorite, toggleFavorite,darkMode }) => {
   const semesterColors = {
@@ -47,7 +47,7 @@ const CustomCard = ({ title, schedule, webex, eclass, semester, isFavorite, togg
         </div>
         <div className="button-section" style={{ textAlign: 'center', marginBottom: '16px' }}>
           <Button variant="contained" color="primary" href={eclass}>
-            <HomeRoundedIcon />
+            <SchoolRoundedIcon />
             &nbsp;
             eClass
           </Button>
