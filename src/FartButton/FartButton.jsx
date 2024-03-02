@@ -6,7 +6,6 @@ import './FartButton.css';
 const FartButton = () => {
     return (
         <div>
-            {/* Remove the audio element from here */}
             <img src={fartButton} alt="Fart Button" className="fart-button" onClick={playFartSound}/>
         </div>
     );
