@@ -67,3 +67,8 @@ body {
   cursor: pointer;
   z-index: 1000;
 }
+
+.footer{
+  position: relative;
+  bottom: -3vw; 
+}
