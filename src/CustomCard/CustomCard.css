@@ -4,18 +4,24 @@
     padding: 0;
     text-align: center; 
     max-width: calc(33.3333% - 10%);
-    /* border: 1px solid #746969;  */
-    border-radius: 8px; 
-    background-color: whitesmoke; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: 0.1s;
+    background-color: #e0e0e0;
+    border: 2px solid white;
+    box-shadow: 10px 10px 20px #bebebe,
+                -10px -10px 20px #ffffff;
+    border-radius: 30px;
+    transition: 0.5s;
 }
 
 .card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+    /* move it up a bit on y axis */
+    transform: translateY(-5px);
 }
   
+.card:active {
+    transform: scale(0.98) rotateZ(0.8deg);
+}
+
 .card .header {
     background-color: #fdd835; /* Yellow background */
     padding: 16px;
@@ -26,10 +32,10 @@
     overflow: hidden; /* Hide overflow */
     text-overflow: ellipsis; 
     text-align: center;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;  
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;  
     height: 15%;
-    color: #000000;
+    color: #141414;
    
 }
 
@@ -47,13 +53,23 @@
 .dark-mode .card .content , .dark-mode .card .content h6, .dark-mode .card .header, .dark-mode .card .schedule-section{
     background-color: #a2a2a2; /* Dark background for dark mode */
     color: #ffffff; /* Light text color for dark mode */
-    
-    
 }
 
 .dark-mode .card .content{
-    border-bottom-left-radius: 8px; 
-    border-bottom-right-radius: 8px; 
+    border-bottom-left-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+}
+
+/* Adjust box shadow and border to the card for dark mode */
+.dark-mode .card {
+    box-shadow: 10px 10px 20px rgb(60, 60, 60),
+             -10px -10px 20px rgb(25, 25, 25);
+    border: 2px solid black;
+}
+
+/* Adjust dark mode hover border color */
+.dark-mode .card:hover {
+    border: 2px solid white;
 }
 
 .card .content p {
@@ -64,8 +80,9 @@
 .schedule-section {
     padding: 16px;
     text-align: center;
-    color: #000000;
-  }
+    background-color: #e0e0e0;
+    color: #141414;
+}
 
 .button-section {
     padding: 16px;
@@ -91,7 +108,7 @@ h6{
     margin: 0;
     font-size: 14px;
     font-weight: 400;
-    color: black;
+    color: #141414;
 }
 
 .favorite-section
