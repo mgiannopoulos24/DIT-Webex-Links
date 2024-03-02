@@ -148,7 +148,10 @@ const App = () => {
           ))}
         </div>
         <Cat darkMode={darkMode} />
-        <Footer />
+        <footer className='footer'>
+          <Footer />
+        </footer>
+        
       </div>
      </>
   );

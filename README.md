@@ -14,6 +14,7 @@
 1. HTML
 2. CSS 
 3. JavaScript
+
 Έμπνευση ήταν η σελίδα [Quiz App](https://starlit-daffodil-2e4733.netlify.app/). <br>
 Credits στην [original creator](https://github.com/matinanadali).
 

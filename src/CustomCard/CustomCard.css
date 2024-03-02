@@ -50,8 +50,8 @@
     
 }
 
-.dark-mode .card .content , .dark-mode .card .content h6, .dark-mode .card .schedule-section{
-    background-color: grey; /* Dark background for dark mode */
+.dark-mode .card .content , .dark-mode .card .content h6, .dark-mode .card .header, .dark-mode .card .schedule-section{
+    background-color: #a2a2a2; /* Dark background for dark mode */
     color: #ffffff; /* Light text color for dark mode */
 }
 
