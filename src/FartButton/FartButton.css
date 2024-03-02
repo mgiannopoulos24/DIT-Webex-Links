@@ -1,0 +1,11 @@
+.fart-button {
+    position: sticky;
+    bottom: 0;
+    /* center button by also adding half the image width */
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1000;
+    cursor: pointer;
+    width: 10vw; /* Smaller width */
+    height: auto; /* Keeps the image's aspect ratio */
+}

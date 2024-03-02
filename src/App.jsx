@@ -12,6 +12,7 @@ import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import Cat from "./Cat/Cat"
+import FartButton from './FartButton/FartButton';
 
 const App = () => {
   const [courses, setCourses] = useState([]);
@@ -147,6 +148,7 @@ const App = () => {
             />
           ))}
         </div>
+        <FartButton />
         <Cat darkMode={darkMode} />
         <footer className='footer'>
           <Footer />
