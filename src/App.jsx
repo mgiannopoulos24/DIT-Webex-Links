@@ -170,6 +170,10 @@ const App = () => {
                   darkMode={darkMode}
                 />)              
               }
+              else
+              {
+                return (<></>);
+              }
             }
             else
             {
