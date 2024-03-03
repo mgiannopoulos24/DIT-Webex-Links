@@ -40,3 +40,4 @@ Credits στην [original creator](https://github.com/matinanadali).
 ## Special Thanks to the contributors
 
 - [alexgiann0](https://github.com/alexgiann0)
+- [Alekossta](https://github.com/Alekossta)
