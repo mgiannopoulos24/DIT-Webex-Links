@@ -37,6 +37,6 @@ Credits στην [original creator](https://github.com/matinanadali).
 
 Πρέπει να έχετε εγκατεστημένο και το [NodeJS](https://nodejs.org/en)
 
-## Special Thanks
+## Special Thanks to the contributors
 
-1. [alexgiann0](https://github.com/alexgiann0)
+- [alexgiann0](https://github.com/alexgiann0)
