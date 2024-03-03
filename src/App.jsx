@@ -11,7 +11,7 @@ import Button from '@mui/material/Button';
 import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
-import { Switch, FormControlLabel, Typography, Box } from '@mui/material';
+import { Switch, FormControlLabel} from '@mui/material';
 import Cat from "./Cat/Cat"
 
 const App = () => {
