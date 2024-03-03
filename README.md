@@ -36,3 +36,7 @@ Credits στην [original creator](https://github.com/matinanadali).
 4. `npm start`
 
 Πρέπει να έχετε εγκατεστημένο και το [NodeJS](https://nodejs.org/en)
+
+## Special Thanks
+
+1. [alexgiann0](https://github.com/alexgiann0)
