@@ -187,12 +187,13 @@
   {
     "key": "24",
     "title": "Θεωρία Πληροφορίας και Κωδίκων",
-    "schedule": "Πέμπτη 13:00 - 17:00",
-    "webex": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
-    "eclass": "https://eclass.uoa.gr/courses/D62/",
+    "scheduleStart": "2024-03-03T13:00:00Z",
+    "scheduleEnd": "2024-06-28T00:00:00Z",
+    "scheduleLabel": "Πέμπτη 13:00 - 17:00",
+    "webex": "link",
+    "eclass": "link",
     "semester": 6
   },
-  
   {
     "key": "25",
     "title": "Θεωρία Υπολογισμού",
