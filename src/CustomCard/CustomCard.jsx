@@ -77,12 +77,12 @@ const CustomCard = ({ title, schedule, webex, eclass, semester, isFavorite, togg
           </ul>
         </div>
         <div className="button-section" style={{ textAlign: 'center', marginBottom: '16px' }}>
-          <Button variant="contained" color="primary" href={eclass}>
+          <Button variant="contained" color="primary" href={eclass} target="_blank">
             <SchoolRoundedIcon />
             &nbsp;
             eClass
           </Button>
-          <Button variant="contained" color="success" href={webex}>
+          <Button variant="contained" color="success" href={webex} target="_blank">
             <VideocamRoundedIcon />
             &nbsp;
             Webex
