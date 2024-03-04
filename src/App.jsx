@@ -13,6 +13,9 @@ import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import { Switch, FormControlLabel} from '@mui/material';
 import Cat from "./Cat/Cat"
+import FartButton from './FartButton/FartButton';
+
+var greekUtils = require('greek-utils');
 
 const App = () => {
   const [courses, setCourses] = useState([]);
@@ -84,7 +87,7 @@ const App = () => {
   };
 
   const filteredAndSortedCourses = courses.filter(course => 
-    course.title.toLowerCase().includes(searchInput.toLowerCase())
+    greekUtils.sanitizeDiacritics(course.title.toLowerCase()).includes(greekUtils.sanitizeDiacritics(greekUtils.toGreek(searchInput.toLowerCase())))
   ).sort((a, b) => b.isFavorite - a.isFavorite);
 
   const changeShowStaredOnly = (event) => {
@@ -192,6 +195,7 @@ const App = () => {
           }
           )}
         </div>
+        <FartButton />
         <Cat darkMode={darkMode} />
         <footer className='footer'>
           <Footer />
