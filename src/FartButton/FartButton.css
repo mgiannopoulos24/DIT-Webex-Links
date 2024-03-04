@@ -8,20 +8,20 @@
     padding: 20px;
     border: 1px solid magenta; /* Placeholder for $magentoso */
     background-color: magenta; /* Placeholder for $magentoso */
-    background-image: radial-gradient(circle contain at center, magenta 15px, lighten(magenta, 6%) 30px, lighten(magenta, 6%) 40px, darken(magenta, 1%) 65px);
+    background-image: radial-gradient(circle closest-side at center, magenta 15px, lighten(magenta, 6%) 30px, lighten(magenta, 6%) 40px, darken(magenta, 1%) 65px);
     background-position: center center;
     background-repeat: no-repeat;
     box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px 5px, rgba(255, 255, 255, 0.7) 0 3px 3px inset, darken(magenta, 40%) 0 8px 10px inset, rgba(0, 0, 0, 0.3) 0 20px 10px inset, rgba(255, 255, 255, 0.5) 0 -2px 3px inset, darken(magenta, 30%) 0 -7px 20px inset;
   }
   
   .arcade-button:hover {
-    background-image: radial-gradient(circle contain at center, lighten(magenta, 5%), lighten(magenta, 10%) 30px, lighten(magenta, 10%) 40px, lighten(magenta, 5%) 65px);
+    background-image: radial-gradient(circle closest-side at center, lighten(magenta, 5%), lighten(magenta, 10%) 30px, lighten(magenta, 10%) 40px, lighten(magenta, 5%) 65px);
     box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px 5px, rgba(255, 255, 255, 0.9) 0 3px 3px inset, darken(magenta, 30%) 0 8px 10px inset, rgba(0, 0, 0, 0.3) 0 20px 10px inset, rgba(255, 255, 255, 0.5) 0 -2px 3px inset, darken(magenta, 30%) 0 -7px 20px inset;
   }
   
   .arcade-button:active {
     border-color: darken(magenta, 90%);
-    background-image: radial-gradient(circle contain at center, magenta 15px, darken(magenta, 15%) 30px, darken(magenta, 15%) 40px, darken(magenta, 25%) 65px);
+    background-image: radial-gradient(circle closest-side at center, magenta 15px, darken(magenta, 15%) 30px, darken(magenta, 15%) 40px, darken(magenta, 25%) 65px);
     box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px 5px, rgba(0, 0, 0, 0.8) 0 3px 3px inset, darken(magenta, 30%) 0 8px 10px inset, rgba(0, 0, 0, 0.3) 0 20px 10px inset, rgba(255, 255, 255, 0.3) 0 -2px 3px inset, darken(magenta, 30%) 0 -7px 20px inset;
   }
   
