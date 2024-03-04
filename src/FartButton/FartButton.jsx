@@ -1,6 +1,6 @@
 import React from 'react';
 import fartButton from './assets/fart_button.png';
-import fartSound from './assets/fart_sound.mp3'; // import fart sound
+import fartSound from './assets/fart_sound.mp3';
 import './FartButton.css';
 
 const FartButton = () => {
@@ -12,8 +12,8 @@ const FartButton = () => {
 }
 
 function playFartSound() {
-    var sound = new Audio(fartSound); // Create a new Audio object each time
-    sound.play(); // Play the sound
+    var sound = new Audio(fartSound);
+    sound.play();
 }
 
 export default FartButton;

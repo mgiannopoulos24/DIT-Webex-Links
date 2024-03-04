@@ -84,8 +84,12 @@ const App = () => {
     setCourses(resetCourses);
   };
 
+  const normalizeString = (str) => {
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  };
+
   const filteredAndSortedCourses = courses.filter(course => 
-    course.title.toLowerCase().includes(searchInput.toLowerCase())
+    normalizeString(course.title.toLowerCase()).includes(normalizeString(searchInput.toLowerCase()))
   ).sort((a, b) => b.isFavorite - a.isFavorite);
 
   const changeShowStaredOnly = (event) => {
