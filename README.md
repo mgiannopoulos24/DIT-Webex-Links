@@ -27,6 +27,7 @@ Credits στην [original creator](https://github.com/matinanadali).
 6. ~~Διόρθωση search bar~~
 7. ~~Dark Mode~~
 8. Εργαστήρια για κάποια μαθήματα
+9. Φιλτράρισμα ανά μέρα και ώρα
 
 ## Εγκατάσταση 
 
