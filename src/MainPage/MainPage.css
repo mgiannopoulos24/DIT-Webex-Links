@@ -72,3 +72,14 @@
     position: relative;
     bottom: -3vw; 
   }
+
+  .feedback{
+    position: fixed;
+    bottom: 20px;
+    right: 20px; /* Changed from right to left */
+    cursor: pointer;
+    z-index: 1000;
+    text-transform: none;
+    opacity: 0.8;
+  }
+  
