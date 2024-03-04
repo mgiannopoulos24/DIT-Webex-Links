@@ -1,13 +1,11 @@
 import React from 'react';
-import fartButton from './assets/fart_button.png';
 import fartSound from './assets/fart_sound.mp3';
 import './FartButton.css';
+import { Button } from '@mui/material';
 
 const FartButton = () => {
     return (
-        <div>
-            <img src={fartButton} alt="Fart Button" className="fart-button" onClick={playFartSound}/>
-        </div>
+            <Button style={{fontSize:12}}className="arcade-button" onClick={playFartSound}>Fart Button</Button>               
     );
 }
 
