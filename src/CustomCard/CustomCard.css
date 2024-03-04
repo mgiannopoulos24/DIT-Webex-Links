@@ -8,7 +8,7 @@
     border: 2px solid white;
     box-shadow: 10px 10px 20px #bebebe,
                 -10px -10px 20px #ffffff;
-    border-radius: 30px;
+    border-radius: 10px;
     transition: 0.5s;
 }
 
@@ -32,8 +32,8 @@
     overflow: hidden; /* Hide overflow */
     text-overflow: ellipsis; 
     text-align: center;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;  
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
     height: 15%;
     color: #141414;
    
@@ -56,8 +56,8 @@
 }
 
 .dark-mode .card .content{
-    border-bottom-left-radius: 30px; 
-    border-bottom-right-radius: 30px; 
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
 }
 
 /* Adjust box shadow and border to the card for dark mode */
