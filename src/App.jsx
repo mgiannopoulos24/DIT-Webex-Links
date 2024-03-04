@@ -11,6 +11,7 @@ import Button from '@mui/material/Button';
 import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
+import { Switch, FormControlLabel} from '@mui/material';
 import Cat from "./Cat/Cat"
 import FartButton from './FartButton/FartButton';
 
@@ -18,6 +19,7 @@ const App = () => {
   const [courses, setCourses] = useState([]);
   const [searchInput, setSearchInput] = useState('');
   const [darkMode, setDarkMode] = useState(false);
+  const [showOnlyStared, setShowOnlyStared] = useState(false);
 
   const toggleDarkMode = () => {
     const newDarkMode = !darkMode; // Calculate the new dark mode state first
@@ -46,6 +48,9 @@ const App = () => {
     
     const storedFavorites = Cookies.get('favoriteCourses');
     const favoriteCourses = storedFavorites ? JSON.parse(storedFavorites) : [];
+
+    const storedShowStaredOnly = Cookies.get("showStaredOnly");
+    setShowOnlyStared(storedShowStaredOnly);
 
     const initializedCourses = courseData.map(course => ({
       ...course,
@@ -82,6 +87,11 @@ const App = () => {
   const filteredAndSortedCourses = courses.filter(course => 
     course.title.toLowerCase().includes(searchInput.toLowerCase())
   ).sort((a, b) => b.isFavorite - a.isFavorite);
+
+  const changeShowStaredOnly = (event) => {
+    setShowOnlyStared(event.target.checked);
+    Cookies.set("showStaredOnly", event.target.checked, {expires : 365})
+  };
 
   return (
     <>
@@ -131,22 +141,57 @@ const App = () => {
             &nbsp;
             Καθαρισμός αγαπημένων
           </Button>
-  
+
+          <FormControlLabel
+            control={
+              <Switch
+                checked={showOnlyStared}
+                onChange={changeShowStaredOnly}
+                name="checkedSwitch"
+              />
+            }
+            label="Μόνο αγαπημένα"
+          />
 
         <div className='main'>
-          {filteredAndSortedCourses.map(course => (
-            <CustomCard
-              key={course.key}
-              title={course.title}
-              schedule={course.schedule}
-              webex={course.webex}
-              eclass={course.eclass}
-              semester={course.semester}
-              isFavorite={course.isFavorite}
-              toggleFavorite={() => toggleFavorite(course.key)}
-              darkMode={darkMode}
-            />
-          ))}
+          {filteredAndSortedCourses.map(course => {
+            if(showOnlyStared)
+            {
+              if(course.isFavorite)
+              {
+                return (<CustomCard
+                  key={course.key}
+                  title={course.title}
+                  schedule={course.schedule}
+                  webex={course.webex}
+                  eclass={course.eclass}
+                  semester={course.semester}
+                  isFavorite={course.isFavorite}
+                  toggleFavorite={() => toggleFavorite(course.key)}
+                  darkMode={darkMode}
+                />)              
+              }
+              else
+              {
+                return (<></>);
+              }
+            }
+            else
+            {
+              return (<CustomCard
+                key={course.key}
+                title={course.title}
+                schedule={course.schedule}
+                webex={course.webex}
+                eclass={course.eclass}
+                semester={course.semester}
+                isFavorite={course.isFavorite}
+                toggleFavorite={() => toggleFavorite(course.key)}
+                darkMode={darkMode}
+              />)
+            }
+          }
+          )}
         </div>
         <FartButton />
         <Cat darkMode={darkMode} />
