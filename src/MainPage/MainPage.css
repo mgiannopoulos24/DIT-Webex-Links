@@ -1,0 +1,74 @@
+:root {
+    --background-color: rgb(240, 240, 240); /* light mode background color */
+    --text-color: rgb(20, 20, 20); /* light mode text color */
+  }
+  
+  .dark-mode .app hr {
+    background-color: #ffffff; /* Set hr background color to white in dark mode */
+  }
+  
+  .app{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    background-color: transparent;
+  }
+  
+  .dark-mode {
+    --background-color: #1f1f1f; /* dark mode background color */
+    --text-color: #f5f5f5; /* dark mode text color */
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s; 
+    min-height: 100vh; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .app h1 {
+    display: block; 
+    font-size: 2em;
+    margin-bottom: 0;
+    
+  }
+  
+  .app h3 {
+    display: block;
+    font-size: 1.17em;
+  }
+  
+  .app hr {
+    border: 0; 
+    height: 2px;
+    background-color: #333; 
+    width: 80%; 
+    margin-bottom: 2%;
+  }
+  
+  
+  .main {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 1%; 
+  }
+  
+  .dark-mode-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .footer{
+    position: relative;
+    bottom: -3vw; 
+  }
