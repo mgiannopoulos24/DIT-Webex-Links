@@ -52,7 +52,8 @@ const App = () => {
     const favoriteCourses = storedFavorites ? JSON.parse(storedFavorites) : [];
 
     const storedShowStaredOnly = Cookies.get("showStaredOnly");
-    setShowOnlyStared(storedShowStaredOnly);
+    // Convert the stored value to boolean before setting it to state
+    setShowOnlyStared(storedShowStaredOnly === 'true');
 
     const initializedCourses = courseData.map(course => ({
       ...course,
