@@ -15,6 +15,8 @@ import { Switch, FormControlLabel} from '@mui/material';
 import Cat from "./Cat/Cat"
 import FartButton from './FartButton/FartButton';
 
+var greekUtils = require('greek-utils');
+
 const App = () => {
   const [courses, setCourses] = useState([]);
   const [searchInput, setSearchInput] = useState('');
@@ -84,12 +86,8 @@ const App = () => {
     setCourses(resetCourses);
   };
 
-  const normalizeString = (str) => {
-    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-  };
-
   const filteredAndSortedCourses = courses.filter(course => 
-    normalizeString(course.title.toLowerCase()).includes(normalizeString(searchInput.toLowerCase()))
+    greekUtils.sanitizeDiacritics(course.title.toLowerCase()).includes(greekUtils.sanitizeDiacritics(greekUtils.toGreek(searchInput.toLowerCase())))
   ).sort((a, b) => b.isFavorite - a.isFavorite);
 
   const changeShowStaredOnly = (event) => {
