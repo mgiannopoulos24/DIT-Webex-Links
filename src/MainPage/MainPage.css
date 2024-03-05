@@ -68,9 +68,9 @@
     z-index: 1000;
   }
   
-  .footer{
-    position: relative;
-    bottom: -3vw; 
+  .Footer{
+    position: relative !important;
+    bottom: -3vw !important;
   }
 
  
