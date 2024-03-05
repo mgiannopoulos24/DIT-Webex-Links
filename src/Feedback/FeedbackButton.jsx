@@ -1,10 +1,11 @@
+import "./FeedbackButton.css";
 import {Dialog, DialogActions, DialogContent, DialogTitle, Button, TextField} from '@mui/material';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import db from '../Firebase';
 import { useState } from 'react';
 import { collection, addDoc } from 'firebase/firestore';
-import "./FeedbackButton.css";
+
 
 
 
@@ -45,7 +46,7 @@ const FeedbackButton = () => {
   };
     return (
         <>
-        <Button variant='contained' color='secondary' className='feedback' onClick={handleFeedbackClick}>Feedback</Button>
+        <Button variant='contained' color='secondary' className='button-purple' onClick={handleFeedbackClick}>Feedback</Button>
         <Dialog 
           open={openFeedbackDialog} 
           onClose={handleCloseFeedbackDialog} 
