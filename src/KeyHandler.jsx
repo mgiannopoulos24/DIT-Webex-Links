@@ -7,7 +7,7 @@ const KeyPressHandler = () => {
   useEffect(() => {
     const handleKeyPress = (event) => {
       console.log('Key pressed:', event.key);
-      if (event.key === '3') {
+      if (event.key === '3') { // If the user presses the 'Numpad 3' key he gets redirected to the MemeCorner
         navigate('/MemeCorner');
       }
     };
