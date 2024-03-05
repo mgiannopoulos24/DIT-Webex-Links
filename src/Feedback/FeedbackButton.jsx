@@ -5,7 +5,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import db from '../Firebase';
 import { useState } from 'react';
 import { collection, addDoc } from 'firebase/firestore';
-
+import RateReviewIcon from '@mui/icons-material/RateReview';
 
 
 
@@ -46,7 +46,7 @@ const FeedbackButton = () => {
   };
     return (
         <>
-        <Button variant='contained' color='secondary' className='button-purple' onClick={handleFeedbackClick}>Feedback</Button>
+        <Button variant='contained' color='secondary' className='button-purple' onClick={handleFeedbackClick}>Feedback<RateReviewIcon style={{fontSize:'medium',marginLeft:'4px',marginTop:'3px'}}/></Button>
         <Dialog 
           open={openFeedbackDialog} 
           onClose={handleCloseFeedbackDialog} 

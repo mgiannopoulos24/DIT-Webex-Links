@@ -202,9 +202,7 @@ const MainPage = () => {
         </div>
         <Cat darkMode={darkMode} />
         <FeedbackButton />
-        <footer className='footer'>
-          <Footer />
-        </footer>
+        <Footer />
       </div>
      </>
   );
