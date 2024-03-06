@@ -14,6 +14,7 @@ import Brightness7Icon from '@mui/icons-material/Brightness7';
 import { Switch, FormControlLabel} from '@mui/material';
 import FeedbackButton from '../Feedback/FeedbackButton';
 import Cat from "../Cat/Cat";
+import { isLiveNowForItem } from '../LiveNowFunc';
 
 
 var greekUtils = require('greek-utils');
@@ -23,7 +24,8 @@ const MainPage = () => {
   const [searchInput, setSearchInput] = useState('');
   const [darkMode, setDarkMode] = useState(false);
   const [showOnlyStared, setShowOnlyStared] = useState(false);
-  
+  const [showLiveOnly, setShowLiveOnly] = useState(false);
+
   
   
   const toggleDarkMode = () => {
@@ -99,6 +101,11 @@ const MainPage = () => {
     Cookies.set("showStaredOnly", event.target.checked, {expires : 365})
   };
 
+  const liveCourses = courses.filter(course => {
+    const scheduleItems = typeof course.schedule === 'string' ? course.schedule.split(',') : [];
+    return scheduleItems.some(item => isLiveNowForItem(item));
+  });
+  
 
   return (
     <>
@@ -116,7 +123,7 @@ const MainPage = () => {
             variant="outlined"
             value={searchInput}
             onChange={handleSearchInputChange}
-            sx={{width:'70%', marginBottom:'0.5%',
+            sx={{width:'70%', margin:'0 3%',
             '& .MuiInputLabel-root': {
               color: darkMode ? '#ffffff' : 'rgba(0, 0, 0, 0.54)', // Set label color
             },
@@ -160,8 +167,20 @@ const MainPage = () => {
             label="Μόνο αγαπημένα"
           />
 
+          <FormControlLabel
+            control={
+              <Switch
+                checked={showLiveOnly}
+                onChange={(e) => setShowLiveOnly(e.target.checked)}
+                name="showLiveOnly"
+              />
+            }
+            label="Ζωντανά τώρα"
+          />
+
+
         <div className='main'>
-          {filteredAndSortedCourses.map(course => {
+          {(showLiveOnly ? liveCourses: filteredAndSortedCourses).map(course => {
             if(showOnlyStared)
             {
               if(course.isFavorite)
