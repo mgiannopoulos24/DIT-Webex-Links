@@ -8,6 +8,7 @@
 
 1. React
 2. NodeJS
+3. Firebase (Firestore)
 
 ## Γλώσσες που χρησιμοποιήθηκαν
 
