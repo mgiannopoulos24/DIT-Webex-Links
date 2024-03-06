@@ -29,6 +29,8 @@ Credits στην [original creator](https://github.com/matinanadali).
 7. ~~Dark Mode~~
 8. ~~Εργαστήρια για κάποια μαθήματα~~
 9. Φιλτράρισμα ανά μέρα και ώρα
+10. ~~Mozilla fix~~
+11. Live only filter
 
 ## Εγκατάσταση 
 
