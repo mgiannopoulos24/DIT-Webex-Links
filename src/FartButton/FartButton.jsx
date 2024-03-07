@@ -5,7 +5,7 @@ import { Button } from '@mui/material';
 
 const FartButton = () => {
     return (
-            <Button style={{fontSize:12}}className="arcade-button" onClick={playFartSound}>Fart Button</Button>               
+        <Button variant="contained" className="fart-button" onClick={playFartSound}>Fart<br/>Button</Button>               
     );
 }
 

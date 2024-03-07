@@ -1,42 +1,10 @@
-.arcade-button {
-    position: relative;
-    cursor: pointer;
-    width: 120px;
-    height: 120px;
-    font-size: 30px;
-    border-radius: 60px;
-    padding: 20px;
-    border: 1px solid magenta; /* Placeholder for $magentoso */
-    background-color: magenta; /* Placeholder for $magentoso */
-    background-image: radial-gradient(circle closest-side at center, magenta 15px, lighten(magenta, 6%) 30px, lighten(magenta, 6%) 40px, darken(magenta, 1%) 65px);
-    background-position: center center;
-    background-repeat: no-repeat;
-    box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px 5px, rgba(255, 255, 255, 0.7) 0 3px 3px inset, darken(magenta, 40%) 0 8px 10px inset, rgba(0, 0, 0, 0.3) 0 20px 10px inset, rgba(255, 255, 255, 0.5) 0 -2px 3px inset, darken(magenta, 30%) 0 -7px 20px inset;
-  }
-  
-  .arcade-button:hover {
-    background-image: radial-gradient(circle closest-side at center, lighten(magenta, 5%), lighten(magenta, 10%) 30px, lighten(magenta, 10%) 40px, lighten(magenta, 5%) 65px);
-    box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px 5px, rgba(255, 255, 255, 0.9) 0 3px 3px inset, darken(magenta, 30%) 0 8px 10px inset, rgba(0, 0, 0, 0.3) 0 20px 10px inset, rgba(255, 255, 255, 0.5) 0 -2px 3px inset, darken(magenta, 30%) 0 -7px 20px inset;
-  }
-  
-  .arcade-button:active {
-    border-color: darken(magenta, 90%);
-    background-image: radial-gradient(circle closest-side at center, magenta 15px, darken(magenta, 15%) 30px, darken(magenta, 15%) 40px, darken(magenta, 25%) 65px);
-    box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px 5px, rgba(0, 0, 0, 0.8) 0 3px 3px inset, darken(magenta, 30%) 0 8px 10px inset, rgba(0, 0, 0, 0.3) 0 20px 10px inset, rgba(255, 255, 255, 0.3) 0 -2px 3px inset, darken(magenta, 30%) 0 -7px 20px inset;
-  }
-  
-  .arcade-button:before {
-    display: block;
-    content: '';
-    position: absolute;
-    z-index: -2;
-    top: -20px;
-    left: -21px;
-    padding: 20px;
-    background: darken(magenta, 10%);
-    width: 120px;
-    height: 120px;
-    border-radius: 80px;
-    box-shadow: darken(magenta, 20%) 0 4px 5px inset, rgba(255, 255, 255, 0.5) 0 12px 5px inset, darken(magenta, 30%) 0 -12px 5px inset, rgba(0, 0, 0, 0.8) 0 4px 8px;
-  }
-  
+.fart-button{
+  font-size: 14px !important;
+  color:whitesmoke !important;
+  background-color: red !important;      
+  text-transform: none !important;
+  border-radius: 100% !important;
+  width: 60px;
+  height: 60px;
+  font-weight: bold !important;
+}

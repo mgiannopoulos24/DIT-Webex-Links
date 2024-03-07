@@ -1,21 +1,26 @@
 import React from 'react';
-import './MemeCorner.css';
 import FartButton from '../FartButton/FartButton';
 import Button from '@mui/material/Button';
+import './MemeCorner.css';
 
 const MemeCorner = () => {
   return (
     <>
     <div className="MemeCorner">
-      <h1>MemeCorner</h1>
-      <div className="button-row">
+      <header className="MemeCorner-header">
+        <h1>MemeCorner</h1>
+      </header>
+      <div className="MemeCorner-content">
+        
         <FartButton />
         <Button variant='contained' sx={{textTransform:'none'}} onClick={() => window.location.href = '/'}>Home</Button>
+        
       </div>
-    </div>
-    <div className='description'>
+      <footer className='MemeCorner-footer'>
         <p>Under Construction</p>
-    </div>   
+      </footer>  
+    </div>
+     
     </>
   );
 }
