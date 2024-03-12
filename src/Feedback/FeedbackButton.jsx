@@ -2,6 +2,7 @@ import "./FeedbackButton.css";
 import {Dialog, DialogActions, DialogContent, DialogTitle, Button, TextField} from '@mui/material';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
+import SendIcon from '@mui/icons-material/Send';
 import db from '../Firebase';
 import { useState } from 'react';
 import { collection, addDoc } from 'firebase/firestore';
@@ -72,7 +73,7 @@ const FeedbackButton = () => {
               autoFocus
               margin="dense"
               id="feedback"
-              label="Πείτε μας την γνώμη σας."
+              label="Πείτε μας τη γνώμη σας"
               type="text"
               rowsmax={15}
               fullWidth
@@ -84,6 +85,7 @@ const FeedbackButton = () => {
           </DialogContent>
           <DialogActions>
             <Button onClick={handleFeedbackSubmit} sx={{textTransform:'none'}} variant="contained" color="success">
+              <SendIcon style={{marginRight:'5px'}}/>
               Αποστολή
             </Button>
           </DialogActions>
