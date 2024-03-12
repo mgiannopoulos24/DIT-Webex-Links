@@ -26,7 +26,7 @@ const CustomCard = ({ title, schedule, webex, eclass, semester, isFavorite, togg
     8: '#e91e63'
   };
 
-  const headerColor = darkModeStatus == "enabled" ? semesterColortDark[semester] : semesterColors[semester];
+  const headerColor = darkModeStatus === "enabled" ? semesterColortDark[semester] : semesterColors[semester];
 
   const headerStyle = {
     backgroundColor: headerColor,
