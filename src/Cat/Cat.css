@@ -1,7 +1,6 @@
 .cat-head {
   position: relative;
-  bottom: -3vw; 
-  left: -49vw;
+  /* left: -49vw; */
   z-index: 1000;
   cursor: pointer;
   width: 5vw; /* Smaller width */

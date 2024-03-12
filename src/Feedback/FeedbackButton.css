@@ -1,7 +1,7 @@
 .button-purple {
-  position: fixed !important;
+  /* position: fixed !important;
   bottom: 20px !important;
-  right: 20px !important;
+  right: 20px !important; */
   z-index: 1000 !important;
   text-transform: none !important;
   opacity: 0.8 !important;
