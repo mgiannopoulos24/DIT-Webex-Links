@@ -8,7 +8,7 @@ const Footer = () => {
   console.log(darkModeStatus);
   return (
     <footer className='footer'>
-      <div style={{paddingLeft: "30px", height: "120px"}}>
+      <div style={{paddingLeft: "30px", height: "125px"}}>
         <Cat darkMode={darkModeStatus}/>
       </div>
       <p style={{display:"flex",justifyContent:"center"}}>&copy; {new Date().getFullYear()}&nbsp; <a href="https://github.com/mgiannopoulos24"> mgiannopoulos24</a>,&nbsp; <a href="https://github.com/kokkinos64">V. Kokkinos</a>. All rights reserved.</p>   
