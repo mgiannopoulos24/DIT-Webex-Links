@@ -12,8 +12,6 @@ import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import { Switch, FormControlLabel} from '@mui/material';
-import FeedbackButton from '../Feedback/FeedbackButton';
-import Cat from "../Cat/Cat";
 import { isLiveNowForItem } from '../LiveNowFunc';
 
 
@@ -85,7 +83,6 @@ const MainPage = () => {
   const handleSearchInputChange = (event) => {
     setSearchInput(event.target.value);
   };
-
   const clearFavorites = () => {
     Cookies.remove('favoriteCourses');
     const resetCourses = courses.map(course => ({ ...course, isFavorite: false }));
@@ -105,12 +102,14 @@ const MainPage = () => {
     const scheduleItems = typeof course.schedule === 'string' ? course.schedule.split(',') : [];
     return scheduleItems.some(item => isLiveNowForItem(item));
   });
-  
+  const favoriteCoursesExist = (showLiveOnly ? liveCourses : filteredAndSortedCourses).some(course => course.isFavorite);
+  const liveCoursesExist = liveCourses.length > 0;
+  const favoriteAndLiveCourses = liveCourses.filter(course => course.isFavorite);
 
   return (
     <>
       
-      <div className='app'>
+      <div className='app animate__animated animate__fadeInLeft'>
         <div className='dark-mode-toggle' onClick={toggleDarkMode}>
           {darkMode ? <Brightness7Icon /> : <Brightness4Icon />}
         </div>
@@ -180,6 +179,21 @@ const MainPage = () => {
 
 
         <div className='main'>
+          {(favoriteAndLiveCourses.length === 0 && showLiveOnly && showOnlyStared) && (
+            <div className='noResult'>
+              <h1>Δεν υπάρχουν live αγαπημένα μαθήματα!</h1>
+            </div>
+          )}
+          {(showLiveOnly && !liveCoursesExist) && (
+            <div className='noResult'>
+              <h1>Δεν υπάρχουν live μαθήματα!</h1>
+            </div>
+          )}
+          {(!showLiveOnly && !favoriteCoursesExist && showOnlyStared) && (
+            <div className='noResult'>
+              <h1>Δεν βρέθηκε κανένα αποτέλεσμα!</h1>
+            </div>
+          )}
           {(showLiveOnly ? liveCourses: filteredAndSortedCourses).map(course => {
             if(showOnlyStared)
             {
@@ -219,8 +233,6 @@ const MainPage = () => {
           }
           )}
         </div>
-        <Cat darkMode={darkMode} />
-        <FeedbackButton />
         <Footer />
       </div>
      </>

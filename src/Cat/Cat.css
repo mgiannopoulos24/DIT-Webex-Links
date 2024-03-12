@@ -1,9 +1,8 @@
 .cat-head {
   position: relative;
-  bottom: -3vw; 
-  left: -49vw;
+  left: -3.9vw;
   z-index: 1000;
   cursor: pointer;
-  width: 5vw; /* Smaller width */
+  width: 4vw; /* Smaller width */
   height: auto; /* Keeps the image's aspect ratio */
 }
