@@ -4,12 +4,13 @@ import StarIcon from '@mui/icons-material/StarRounded';
 import StarBorderIcon from '@mui/icons-material/StarBorderRounded';
 import VideocamRoundedIcon from '@mui/icons-material/VideocamRounded';
 import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded';
+import Cookies from 'js-cookie';
 import { Circle } from "@mui/icons-material";
 import { isLiveNowForItem } from "../LiveNowFunc";
 
 const CustomCard = ({ title, schedule, webex, eclass, semester, isFavorite, toggleFavorite,darkMode }) => {
 
-
+  const darkModeStatus = Cookies.get('darkMode') ;
 
   const semesterColors = {
     2: '#add8e6',
@@ -18,11 +19,18 @@ const CustomCard = ({ title, schedule, webex, eclass, semester, isFavorite, togg
     8: '#ffb6c1'
   };
 
-  const headerColor = semesterColors[semester];
+  const semesterColortDark = {
+    2: '#0d47a1',
+    4: '#af941d',
+    6: '#f57c00',
+    8: '#e91e63'
+  };
+
+  const headerColor = darkModeStatus == "enabled" ? semesterColortDark[semester] : semesterColors[semester];
 
   const headerStyle = {
     backgroundColor: headerColor,
-    padding: '16px',
+    // padding: '16px',
     textAlign: 'center',
   };
 
@@ -44,13 +52,15 @@ const CustomCard = ({ title, schedule, webex, eclass, semester, isFavorite, togg
   
   const live = isLiveNow();
 
-  
+  let titleLength = title.length > 30;
 
 
   return (
     <div className="card" style={{ flex: '1', margin: '0.5%', minWidth: '300px', display: 'flex', flexDirection: 'column' }}>
-      <div className="header" style={headerStyle}>
-        <h1>{title}</h1>
+      <div className="header" style={{ ...headerStyle}}>
+        <h1 style={{fontSize: titleLength ? 14 : 16 }} >
+          {title}
+        </h1>
       </div>
       <div className="content" style={{ flex: '1', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
         <h6 style={{ fontWeight: "bold", fontSize: 18 }}>Εξάμηνο: {semester}ο</h6>

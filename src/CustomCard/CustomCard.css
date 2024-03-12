@@ -35,7 +35,8 @@
     text-align: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;  
-    height: 15%;
+    /* height: 15%; */
+    height: 50px;
     /* complete black, 87% opacity */
     color: rgba(0, 0, 0, 0.87);  
 }
